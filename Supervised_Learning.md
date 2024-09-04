@@ -10,26 +10,19 @@ ML covers a wide range of methods (Hastie et al., 2009). Supervised learning pre
 
 **Supervised Learning Approaches**
 
-<!--[if !supportLists]-->Ø  <!--[endif]-->**Linear models.**
+**Linear models.**
 
 With a straight-line equation, Linear models connect independent variables with the outcome of interest. Linear regression assumes that the outcome is directly related to the feature values with an additive relationship between features. Other form of regression models, such as logistic regression (for binary classification), similarly assume an additive relationship but apply a transformation of the linear function according to the prediction task.
 
-<!--[if !supportLists]-->Ø  <!--[endif]-->**Decision tree models.**
+**Decision tree models.**
 
 Classification and regression trees were introduced by Leo Breiman as a substitute to linear models (Breiman et al., 2017). A decision tree divides observations into subgroups based on feature splits, ending in leaves that contain these subgroups. The final tree partitions the population; every observation is assigned to a single leaf based on the feature splits. A single prediction is generated for each leaf. In classification tasks, this prediction is typically a probability calculated from the most common outcome in the leaf, while in continuous outcomes, it is usually the average outcome value in the leaf.****
 
-<!--[if !supportLists]-->Ø  <!--[endif]-->**Neural networks.  **
+**Neural networks.**
 
 Neural networks (NN) link features to predicted outcomes using a layered network of mathematical operations. The model first maps input features to nodes in a hidden layer through linear functions, then connects these nodes to an outcome using a nonlinear activation function. This setup allows neural networks to understand complex interactions between features and the outcome. Advancements in the field of NN include the introduction of recurrent neural networks, convolutional neural networks, and generative adversarial networks (Schmidhuber, 2015).
 
  
-
- 
-
- 
-
- 
-
 **REFERENCES**
 
 Breiman, L., Friedman, J. H., Olshen, R. A., & Stone, C. J. (2017). Classification and regression trees. _Classification and Regression Trees_, 1–358. https\://doi.org/10.1201/9781315139470/CLASSIFICATION-REGRESSION-TREES-LEO-BREIMAN-JEROME-FRIEDMAN-OLSHEN-CHARLES-STONE/ACCESSIBILITY-INFORMATION
